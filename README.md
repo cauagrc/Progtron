@@ -1,13 +1,13 @@
 <div align="center">
 
-# PROGTRON
+# Progtron
 
 **Software educacional para apoio ao ensino de programação**
 
 </div>
 
 > [!NOTE]
-> O **"PROGTRON"** foi desenvolvido como parte do projeto **“Desenvolvimento de Softwares Educacionais por meio da Integração entre Programação Orientada a Objetos e Computação Gráfica”**, do curso de Ciência da Computação da Fundação Universidade Federal de Rondônia (UNIR).
+> O **"Progtron"** foi desenvolvido como parte do projeto **“Desenvolvimento de Softwares Educacionais por meio da Integração entre Programação Orientada a Objetos e Computação Gráfica”**, do curso de Ciência da Computação da Fundação Universidade Federal de Rondônia (UNIR).
 
 O projeto busca integrar conhecimentos de **Programação Orientada a Objetos** e **Computação Gráfica** no desenvolvimento de uma aplicação educacional para computador.
 
@@ -27,7 +27,7 @@ O projeto busca integrar conhecimentos de **Programação Orientada a Objetos** 
 > [!NOTE]
 > Para visualizar o funcionamento da aplicação, consulte o [vídeo de demonstração](https://youtu.be/IQQOm2Efdlk).
 
-O **PROGTRON** é um aplicativo educacional para computador desenvolvido com o objetivo de unir conceitos de **Programação Orientada a Objetos** e **Computação Gráfica** em uma aplicação interativa voltada ao ensino de programação.
+O **Progtron** é um aplicativo educacional para computador desenvolvido com o objetivo de unir conceitos de **Programação Orientada a Objetos** e **Computação Gráfica** em uma aplicação interativa voltada ao ensino de programação.
 
 O projeto foi desenvolvido de forma colaborativa por estudantes das disciplinas de Programação Orientada a Objetos e Computação Gráfica do curso de Ciência da Computação da **Universidade Federal de Rondônia (UNIR)**.
 
@@ -54,14 +54,14 @@ O projeto utiliza as seguintes tecnologias e ferramentas:
 > [!IMPORTANT]
 > Caso prefira acompanhar visualmente o processo de instalação e configuração do projeto, utilize o [vídeo](https://youtu.be/AlDXS4Qw-UY).
 
-Antes de executar o PROGTRON, é necessário instalar algumas dependências e compilar a biblioteca gráfica utilizada pela aplicação
+Antes de executar o Progtron, é necessário instalar algumas dependências e compilar a biblioteca gráfica utilizada pela aplicação
 
 ### 1. Clonar os repositórios
 
 O projeto utiliza dois repositórios:
 
 - `progton-lib`: biblioteca gráfica utilizada pela aplicação;
-- `progtron`: aplicação principal do PROGTRON.
+- `progtron`: aplicação principal do Progtron.
 
 Clone ambos utilizando:
 

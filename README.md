@@ -17,7 +17,7 @@ O projeto busca integrar conhecimentos de **Programação Orientada a Objetos** 
 
 - [Sobre](#sobre)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Configuração e instalação](#️configuração-e-instalação)
+- [Configuração e instalação](#configuração-e-instalação)
 - [Autores](#autores)
 
 ---

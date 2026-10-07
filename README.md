@@ -1,47 +1,92 @@
-# Projeto de Programação Orientada a Objetos
+<div align="center">
 
-## 📺 Vídeo de demonstração
+# PROGTRON
 
-Caso prefira, você pode acompanhar todo o processo de instalação através do vídeo abaixo:
+**Software educacional para apoio ao ensino de programação**
 
-**YouTube:** https://youtu.be/IQQOm2Efdlk
+</div>
 
----
+> [!NOTE]
+> O **"PROGTRON"** foi desenvolvido como parte do projeto **“Desenvolvimento de Softwares Educacionais por meio da Integração entre Programação Orientada a Objetos e Computação Gráfica”**, do curso de Ciência da Computação da Fundação Universidade Federal de Rondônia (UNIR).
 
-## 📺 Vídeo de instalação
-
-Caso prefira, você pode acompanhar todo o processo de instalação através do vídeo abaixo:
-
-**YouTube:** https://youtu.be/AlDXS4Qw-UY
+O projeto busca integrar conhecimentos de **Programação Orientada a Objetos** e **Computação Gráfica** no desenvolvimento de uma aplicação educacional para computador.
 
 ---
 
-## Configuração do Ambiente
+## Sumário
 
-Antes de executar o projeto, é necessário instalar algumas dependências e compilar a biblioteca gráfica utilizada.
+- [Sobre](#sobre)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Configuração e instalação](#️configuração-e-instalação)
+- [Autores](#autores)
 
 ---
 
-## 1. Clonar os repositórios
+## Sobre
 
-Clone os dois repositórios necessários:
+> [!NOTE]
+> Para visualizar o funcionamento da aplicação, consulte o [vídeo de demonstração](https://youtu.be/IQQOm2Efdlk).
+
+O **PROGTRON** é um aplicativo educacional para computador desenvolvido com o objetivo de unir conceitos de **Programação Orientada a Objetos** e **Computação Gráfica** em uma aplicação interativa voltada ao ensino de programação.
+
+O projeto foi desenvolvido de forma colaborativa por estudantes das disciplinas de Programação Orientada a Objetos e Computação Gráfica do curso de Ciência da Computação da **Universidade Federal de Rondônia (UNIR)**.
+
+A aplicação busca proporcionar uma experiência prática de aprendizagem, utilizando elementos gráficos e interativos para apresentar conteúdos de programação e permitir que o usuário aplique seus conhecimentos durante a utilização do software.
+
+## Tecnologias utilizadas
+
+O projeto utiliza as seguintes tecnologias e ferramentas:
+
+| Tecnologia | Utilização |
+|---|---|
+| **Java** | Desenvolvimento da aplicação e implementação da lógica |
+| **JavaFX** | Construção da interface da aplicação |
+| **Maven** | Gerenciamento e execução do projeto |
+| **C++** | Desenvolvimento da biblioteca gráfica |
+| **OpenGL** | Renderização gráfica |
+| **GLFW** | Gerenciamento de janela e contexto gráfico |
+| **GLM** | Operações matemáticas utilizadas pela computação gráfica |
+| **CMake** | Configuração e compilação da biblioteca gráfica |
+| **Git / GitHub** | Versionamento e desenvolvimento colaborativo |
+
+## Configuração e instalação
+
+> [!IMPORTANT]
+> Caso prefira acompanhar visualmente o processo de instalação e configuração do projeto, utilize o [vídeo](https://youtu.be/AlDXS4Qw-UY).
+
+Antes de executar o PROGTRON, é necessário instalar algumas dependências e compilar a biblioteca gráfica utilizada pela aplicação
+
+### 1. Clonar os repositórios
+
+O projeto utiliza dois repositórios:
+
+- `progton-lib`: biblioteca gráfica utilizada pela aplicação;
+- `progtron`: aplicação principal do PROGTRON.
+
+Clone ambos utilizando:
 
 ```bash
 git clone https://github.com/Tatmiki/progton-lib
-git clone https://github.com/cauagrc/Projeto-Final-POO
+git clone https://github.com/cauagrc/progtron
 ```
 
----
+Após a clonagem, os dois diretórios devem estar localizados na mesma pasta:
 
-## 2. Pré-requisitos
+```text
+/
+├── progton-lib/
+└── progtron/
+```
 
-Certifique-se de possuir instalados:
+### 2. Pré-requisitos
 
-- JDK **21.0.10**
-- Maven (qualquer versão)
-- GLM (qualquer versão)
+Certifique-se de possuir as seguintes ferramentas instaladas:
 
-### Dependências do sistema (Ubuntu/Debian)
+- **JDK 21.0.10**
+- **Maven**
+- **GLM**
+
+#### Dependências do sistema — Ubuntu/Debian
 
 Instale as dependências abaixo:
 
@@ -52,11 +97,9 @@ sudo apt install cmake
 sudo apt install default-jdk
 ```
 
----
+### 3. Instalação do GLM
 
-## 3. Instalação do GLM
-
-Extraia o arquivo do GLM e entre na pasta criada.
+Extraia o arquivo do **GLM** e acesse a pasta criada.
 
 Em seguida, execute os comandos abaixo, um de cada vez:
 
@@ -66,20 +109,16 @@ cmake \
     -DBUILD_SHARED_LIBS=OFF \
     -B build .
 ```
-
 ```bash
 cmake --build build --all
 ```
-
 ```bash
 sudo cmake --build build --install
 ```
 
----
+### 4. Compilando a biblioteca gráfica
 
-## 4. Compilando a biblioteca gráfica
-
-Entre no repositório **progton-lib**:
+Entre no repositório da biblioteca:
 
 ```bash
 cd progton-lib
@@ -109,32 +148,44 @@ Compile a biblioteca:
 cmake --build build
 ```
 
----
+Após a conclusão desse processo, a biblioteca estará pronta para ser utilizada pelo PROGTRON.
 
-## 5. Executando o projeto
+### 5. Executando o projeto
 
-Entre no repositório **Projeto-Final-POO**:
+Retorne para o diretório da aplicação principal:
 
 ```bash
-cd ../Projeto-Final-POO
+cd ../progtron
 ```
 
-Execute a aplicação:
+Execute utilizando Maven:
 
 ```bash
 mvn javafx:run
 ```
 
----
+Após a compilação das dependências, a aplicação deverá ser iniciada.
 
 ## Resumo
 
-1. Clone os dois repositórios.
-2. Instale o JDK, Maven, CMake, GLFW e GLM.
-3. Compile e instale o GLM.
-4. Compile a biblioteca `progton-lib`.
-5. Execute o projeto com:
+O processo completo consiste em:
+
+1. Clonar `progton-lib`;
+2. Clonar `progtron`;
+3. Instalar JDK, Maven, CMake, GLFW e GLM;
+4. Configurar e instalar o GLM;
+5. Compilar a biblioteca `progton-lib`;
+6. Executar a aplicação utilizando:
 
 ```bash
 mvn javafx:run
 ```
+
+## Autores
+
+- **Cauã Galdino Garcia**, Universidade Federal de Rondônia (UNIR)
+- **Marcus Vinícius Nascimento Pinheiro**, Universidade Federal de Rondônia (UNIR)
+- **Samuel Gomes Cunha Amádio**, Universidade Federal de Rondônia (UNIR)
+- **João Henrique Vieira do Carmo**, Universidade Federal de Rondônia (UNIR)
+- **Leonardo Seiji Nakayama Prado**, Universidade Federal de Rondônia (UNIR)
+- **Thiago Antônico Costa do Nascimento**, Universidade Federal de Rondônia (UNIR)

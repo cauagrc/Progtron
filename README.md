@@ -4,6 +4,15 @@
 
 **Software educacional para apoio ao ensino de programação**
 
+![JDK 21](https://img.shields.io/badge/JDK-21.0.10-red?style=flat-square&logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-21-blue?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![GLFW](https://img.shields.io/badge/GLFW-000000?style=flat-square&logo=opengl&logoColor=white)
+![GLM](https://img.shields.io/badge/GLM-Math-4B8BBE?style=flat-square)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+
 </div>
 
 > [!NOTE]
@@ -16,8 +25,8 @@ O projeto busca integrar conhecimentos de **Programação Orientada a Objetos** 
 ## Sumário
 
 - [Sobre](#sobre)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Configuração e instalação](#configuração-e-instalação)
+- [Resumo](#resumo)
 - [Autores](#autores)
 
 ---
@@ -32,22 +41,6 @@ O **Progtron** é um aplicativo educacional para computador desenvolvido com o o
 O projeto foi desenvolvido de forma colaborativa por estudantes das disciplinas de Programação Orientada a Objetos e Computação Gráfica do curso de Ciência da Computação da **Universidade Federal de Rondônia (UNIR)**.
 
 A aplicação busca proporcionar uma experiência prática de aprendizagem, utilizando elementos gráficos e interativos para apresentar conteúdos de programação e permitir que o usuário aplique seus conhecimentos durante a utilização do software.
-
-## Tecnologias utilizadas
-
-O projeto utiliza as seguintes tecnologias e ferramentas:
-
-| Tecnologia | Utilização |
-|---|---|
-| **Java** | Desenvolvimento da aplicação e implementação da lógica |
-| **JavaFX** | Construção da interface da aplicação |
-| **Maven** | Gerenciamento e execução do projeto |
-| **C++** | Desenvolvimento da biblioteca gráfica |
-| **OpenGL** | Renderização gráfica |
-| **GLFW** | Gerenciamento de janela e contexto gráfico |
-| **GLM** | Operações matemáticas utilizadas pela computação gráfica |
-| **CMake** | Configuração e compilação da biblioteca gráfica |
-| **Git / GitHub** | Versionamento e desenvolvimento colaborativo |
 
 ## Configuração e instalação
 
